@@ -1,5 +1,5 @@
 #Written by PurpleNinja225
- 
+#This script assumes you have already split your hashes into multiple files.
  
 Param(
     [string]$PathToHashcatExE,     #Path to your hashcat executable.
