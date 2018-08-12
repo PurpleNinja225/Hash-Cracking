@@ -1,4 +1,6 @@
-﻿
+#Written by PurpleNinja225
+ 
+ 
 Param(
     [string]$PathToHashcatExE,     #Path to your hashcat executable.
     [string]$AttackMode = "0",     #Attack mode: Stright, Combination, Brute-force, etc..
