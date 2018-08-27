@@ -8,28 +8,28 @@ I started with compiling a list of leaked passwords and [Hashes.org](https://has
 
 #### **Databse leaks used**
 
-last.fm 2016
-zoosk.com
-id.zing.vn
-imesh
-youku
-badoo
-linkedin
-xsplit
-ownedcore.com
-mac-torrents.com
-taringa.net
-gamigo
-haveibeenpwnedv2
-haveibeenpwnedv3v2excluded
-dropbox
-time warner cable business class
-furaffinity.net
-gamephics.com
-cheapassgamer.com
-solomid.net
-hackbase.cc
-newseasims.com (2018)
+- last.fm 2016
+- zoosk.com
+- id.zing.vn
+- imesh
+- youku
+- badoo
+- linkedin
+- xsplit
+- ownedcore.com
+- mac-torrents.com
+- taringa.net
+- gamigo
+- haveibeenpwnedv2
+- haveibeenpwnedv3v2excluded
+- dropbox
+- time warner cable business class
+- furaffinity.net
+- gamephics.com
+- cheapassgamer.com
+- solomid.net
+- hackbase.cc
+- newseasims.com (2018)
 
 
 Once combined I had 868,763,973 passwords and next I needed to turn each password into a mask of itself, like turning Password123! into “alllllllddds” with s=Symbol, d=Digit, a=Alpha, l=Lower-Alpha. 
