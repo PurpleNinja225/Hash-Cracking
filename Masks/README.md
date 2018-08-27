@@ -35,12 +35,14 @@ I started with compiling a list of leaked passwords and [Hashes.org](https://has
 Once combined I had 868,763,973 passwords and next I needed to turn each password into a mask of itself, like turning Password123! into “alllllllddds” with s=Symbol, d=Digit, a=Alpha, l=Lower-Alpha. 
 
 For this I used the Unified List Manager aka "ULM" because it had a handy option to do exactly what I needed. After I had everything masked it was just a simple command to get a frequency list out of them.
-'''
+
+```
 sort GroupMaskFreq.txt | uniq -c | sort -n -r > maskfreq.txt
-'''
+```
+
 This was quite the waiting game. Almost 3 hours to complete, but what I was left with was a wonderful list of masks and how many times each one had occurred. 
 
-Top 20 contains masks with 10 million+ hits.
-Top 100 actually contains 96 masks, all of which had over 1 million hits.
-Top 570 contains masks with over 100 thousand hits.
+- Top 20 contains masks with 10 million+ hits.
+- Top 100 actually contains 96 masks, all of which had over 1 million hits.
+- Top 570 contains masks with over 100 thousand hits.
 
