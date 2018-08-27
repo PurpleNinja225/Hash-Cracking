@@ -1,12 +1,12 @@
-##**PurpleNinja's Top Masks**
+## **PurpleNinja's Top Masks**
 
 In my quest to have more efficient masks for hashcat I began my search like any other; google. My searches didn’t yield much (maybe because I’m not quite yet a google jedi) I was able to find some security blogs that listed the poster’s favored masks, but nothing with enough data to back up why I should be using them. The closest was _NSAKEY’s [nsa-rules](https://github.com/NSAKEY/nsa-rules) repo on github, but they were generated using PACK. I was unfamiliar with the tool so I didn’t want to use it because I don’t know how it decides to generate its masks. I wanted most common masks, built from real passwords. So I decided to make my own.
 
-###**Getting Started**
+### **Getting Started**
 
 I started with compiling a list of leaked passwords and [Hashes.org](https://hashes.org/leaks.php) was very kind to give me what I needed. I downloaded some of the largest database leaks it had to offer and combined them together. 
 
-####**Databse leaks used**
+#### **Databse leaks used**
 
 last.fm 2016
 zoosk.com
